@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="glass"></div>
+    <form method="submit">
+      <div class="input-container display-column">
+        <input type="text" placeholder="Nome" autocomplete="off" />
+        <input type="tel" placeholder="Telefone" />
+        <input type="email" placeholder="Email" autocomplete="off" />
+      </div>
+
+      <div class="checkbox-container">
+        <label for="">Ocultar telefone</label>
+        <input type="checkbox" />
+      </div>
+
+      <div class="select-container display-column">
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado">
+          <option value="">Selecione um estado</option>
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+        </select>
+
+        <select id="estado_ac" hidden="true" name="estado_ac">
+          <option value="Rio Branco">Rio Branco</option>
+          <option value="Cruzeiro do Sul">Cruzeiro do Sul</option>
+        </select>
+
+        <select id="estado_al" hidden="true" name="estado_al">
+          <option value="Maceió">Maceió</option>
+          <option value="Arapiraca">Arapiraca</option>
+        </select>
+
+        <select id="estado_ap" hidden="true" name="estado_ap">
+          <option value="Macapá">Macapá</option>
+          <option value="Santana">Santana</option>
+        </select>
+
+        <select id="estado_am" hidden="true" name="estado_am">
+          <option value="Manaus">Manaus</option>
+          <option value="Parintins">Parintins</option>
+        </select>
+
+        <select id="estado_ba" hidden="true" name="estado_ba">
+          <option value="Salvador">Salvador</option>
+          <option value="Feira de Santana">Feira de Santana</option>
+        </select>
+
+        <select id="estado_ce" hidden="true" name="estado_ce">
+          <option value="Fortaleza">Fortaleza</option>
+          <option value="Juazeiro do Norte">Juazeiro do Norte</option>
+        </select>
+
+        <select id="estado_df" hidden="true" name="estado_df">
+          <option value="Brasília">Brasília</option>
+          <option value="Taguatinga">Taguatinga</option>
+        </select>
+
+        <select id="estado_es" hidden="true" name="estado_es">
+          <option value="Vitória">Vitória</option>
+          <option value="Vila Velha">Vila Velha</option>
+        </select>
+
+        <select id="estado_go" hidden="true" name="estado_go">
+          <option value="Goiânia">Goiânia</option>
+          <option value="Anápolis">Anápolis</option>
+        </select>
+
+        <select id="estado_ma" hidden="true" name="estado_ma">
+          <option value="São Luís">São Luís</option>
+          <option value="Imperatriz">Imperatriz</option>
+        </select>
+
+        <select id="estado_mt" hidden="true" name="estado_mt">
+          <option value="Cuiabá">Cuiabá</option>
+          <option value="Várzea Grande">Várzea Grande</option>
+        </select>
+
+        <select id="estado_ms" hidden="true" name="estado_ms">
+          <option value="Campo Grande">Campo Grande</option>
+          <option value="Dourados">Dourados</option>
+        </select>
+
+        <select id="estado_mg" hidden="true" ame="estado_mg">
+          <option value="Belo Horizonte">Belo Horizonte</option>
+          <option value="Uberlândia">Uberlândia</option>
+        </select>
+
+        <select id="estado_pa" hidden="true" name="estado_pa">
+          <option value="Belém">Belém</option>
+          <option value="Santarém">Santarém</option>
+        </select>
+
+        <select id="estado_pb" hidden="true" name="estado_pb">
+          <option value="João Pessoa">João Pessoa</option>
+          <option value="Campina Grande">Campina Grande</option>
+        </select>
+
+        <select id="estado_pr" hidden="true" name="estado_pr">
+          <option value="Curitiba">Curitiba</option>
+          <option value="Londrina">Londrina</option>
+        </select>
+
+        <select id="estado_pe" hidden="true" name="estado_pe">
+          <option value="Recife">Recife</option>
+          <option value="Olinda">Olinda</option>
+        </select>
+
+        <select id="estado_pi" hidden="true" name="estado_pi">
+          <option value="Teresina">Teresina</option>
+          <option value="Parnaíba">Parnaíba</option>
+        </select>
+
+        <select id="estado_rj" hidden="true" name="estado_rj">
+          <option value="Rio de Janeiro">Rio de Janeiro</option>
+          <option value="Niterói">Niterói</option>
+        </select>
+
+        <select id="estado_rn" hidden="true" name="estado_rn">
+          <option value="Natal">Natal</option>
+          <option value="Mossoró">Mossoró</option>
+        </select>
+
+        <select id="estado_rs" hidden="true" name="estado_rs">
+          <option value="Porto Alegre">Porto Alegre</option>
+          <option value="Caxias do Sul">Caxias do Sul</option>
+        </select>
+
+        <select id="estado_ro" hidden="true" name="estado_ro">
+          <option value="Porto Velho">Porto Velho</option>
+          <option value="Ji-Paraná">Ji-Paraná</option>
+        </select>
+
+        <select id="estado_rr" hidden="true" name="estado_rr">
+          <option value="Boa Vista">Boa Vista</option>
+          <option value="Rorainópolis">Rorainópolis</option>
+        </select>
+
+        <select id="estado_sc" hidden="true" name="estado_sc">
+          <option value="Florianópolis">Florianópolis</option>
+          <option value="Joinville">Joinville</option>
+        </select>
+
+        <select id="estado_sp" hidden="true" name="estado_sp">
+          <option value="São Paulo">São Paulo</option>
+          <option value="Campinas">Campinas</option>
+        </select>
+
+        <select id="estado_se" hidden="true" name="estado_se">
+          <option value="Aracaju">Aracaju</option>
+          <option value="Nossa Senhora do Socorro">
+            Nossa Senhora do Socorro
+          </option>
+        </select>
+
+        <select id="estado_to" hidden="true" name="estado_to">
+          <option value="Palmas">Palmas</option>
+          <option value="Araguaína">Araguaína</option>
+        </select>
+      </div>
+
+      <button>Enviar</button>
+    </form>
+    <div class="toast toast-success" hidden="true">
+      <h5>SUCESSO!</h5>
+      <p>Dados enviados com sucesso!</p>
+    </div>
+    <div class="toast toast-error" hidden="true">
+      <h5>ERROR</h5>
+      <p>Preencher dados obrigatórios</p>
+    </div>
+  </body>
+
+  <script src="./javascript.js"></script>
+  <script>
+    document;
+    document.querySelector("form").addEventListener("submit", function (event) {
+      event.preventDefault();
+    });
+  </script>
+</html>
