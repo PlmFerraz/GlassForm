@@ -8,7 +8,9 @@ Email: Obrigatório.
 Opções Adicionais:
 
 Ocultar Telefone: Caixa de seleção para ocultar o número.
+
 Estado: Menu suspenso que, ao selecionar um estado, exibe outro menu com cidades relevantes.
+
 Validação:
 
 Mensagem de erro (toast) é exibida e os campos obrigatórios (nome e email) são destacados em vermelho se não forem preenchidos corretamente.
